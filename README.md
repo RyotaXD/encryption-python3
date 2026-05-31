@@ -3,6 +3,7 @@
 Tool enkripsi dan proteksi bytecode Python tingkat lanjut yang dilengkapi dengan multi-layered compression, AES-256-CBC, polymorphic chunking, dan proteksi aktif terhadap runtime injection (anti-hook).
 
 **Author:** RyotaXD
+
 **Facebook:** https://www.facebook.com/ryotaaaxd0
 
 ---
