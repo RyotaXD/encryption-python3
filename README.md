@@ -47,4 +47,5 @@ Pastikan modul yang dibutuhkan sudah terpasang di environment Python / Termux An
 ```bash
 pip install pycryptodome inquirer
 git clone https://github.com/RyotaXD/encryption-python3
-python encryption.py
+chmod +x main
+./main
