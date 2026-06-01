@@ -16,9 +16,7 @@ Berbeda dengan obfuscator biasa yang cuma mengubah nama variabel atau meng-encry
 
 ## Fitur Utama
 
-* **TUI Interactive Menu**: Menggunakan `inquirer` untuk mempermudah pemilihan target file, jumlah layer kompresi, dan input pesan jebakan langsung lewat navigasi panah terminal.
-
-* **Multi-Layered Polymorphic Compression**: Memanfaatkan kombinasi modul `zlib` dan `lzma` yang diputar secara acak bersama encoding biner (`base64`, `base32`, `base16`) hingga puluhan layer sesuai konfigurasi.
+* **Multi-Layered Polymorphic Compression**: Memanfaatkan kombinasi modul `zlib` dan `lzma` yang diputar secara acak bersama encoding biner (`base64`, `base32`, `base16`, `xor`, `CPP`) hingga puluhan layer sesuai konfigurasi.
 
 * **AES-256-CBC Encryption**: Mengamankan serialisasi bytecode (`marshal.dumps`) menggunakan enkripsi simetris AES 256-bit. Key dan Initialization Vector (IV) di-generate secara acak setiap kali enkripsi dilakukan.
 
